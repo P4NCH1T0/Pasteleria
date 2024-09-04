@@ -1,0 +1,45 @@
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8b400 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #333 !important;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer a {
+    color: #f8b400;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-form input {
+    border: none;
+    padding: 10px;
+}
+
+.footer-form button {
+    background-color: #f8b400;
+    border: none;
+    padding: 10px 20px;
+}
+
+.footer-form button:hover {
+    background-color: #ff9800;
+}
