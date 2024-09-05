@@ -6,6 +6,9 @@
     color: #f8b400 !important;
 }
 
+.nav-item{
+    padding-right: 10px;
+}
 .nav-link {
     color: #fff !important;
 }
@@ -13,6 +16,42 @@
 .nav-link:hover {
     color: #333 !important;
 }
+
+
+
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card-body {
+    padding: 15px;
+}
+
+
+
+.custom-btn {
+    background-color: #f8b400; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.custom-btn:hover {
+    background-color: #b88703; /* Color de fondo al pasar el mouse */
+    color: #fff;
+}
+
+
+
+
 
 .footer {
     background-color: #333;
@@ -34,12 +73,3 @@
     padding: 10px;
 }
 
-.footer-form button {
-    background-color: #f8b400;
-    border: none;
-    padding: 10px 20px;
-}
-
-.footer-form button:hover {
-    background-color: #ff9800;
-}
