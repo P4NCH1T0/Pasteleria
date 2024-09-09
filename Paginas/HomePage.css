@@ -19,6 +19,27 @@
 
 
 
+
+video {
+    height: auto;
+    max-height: 100vh; /* El video no superará la altura del viewport */
+    object-fit: cover; /* Ajusta el video para cubrir completamente el espacio disponible */
+    
+}
+
+
+.full-width-section {
+    width: 100%; /* Abarca el 100% del ancho de la pantalla */
+    background-color: #333; /* Fondo opcional, puedes cambiarlo según tu diseño */
+}
+
+.full-width-section h1 {
+    font-size: 2.5rem; /* Tamaño del título, ajusta según tu preferencia */
+    color: #f8b400; /* Color del texto, cambia según tu diseño */
+}
+
+
+
 .card {
     margin: 20px;
 }
@@ -47,6 +68,21 @@
 .custom-btn:hover {
     background-color: #b88703; /* Color de fondo al pasar el mouse */
     color: #fff;
+}
+
+
+
+
+.full-width-image {
+    width: 100%; /* Abarca el 100% del ancho de la pantalla */
+    overflow: hidden; /* Asegura que no haya desbordamiento */
+    margin-top: 50px;
+}
+
+.full-width-image img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio en blanco debajo de la imagen */
 }
 
 

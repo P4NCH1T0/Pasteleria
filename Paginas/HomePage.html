@@ -11,29 +11,29 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">Rocha's Pastelería</a>
+        <a class="navbar-brand" href="./HomePage.html">Rocha's Pastelería</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="./HomePage.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="./Nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menú</a>
+                    <a class="nav-link" href="./Menu.html">Menú</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Galería</a>
+                    <a class="nav-link" href="./Galeria.html">Galería</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./Contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Perfil</a>
+                  <a class="nav-link" href="./Perfil.html">Perfil</a>
               </li>
               <li class="nav-item">
                 <form class="footer-form d-flex">
@@ -46,23 +46,21 @@
     </div>
 </nav>
 
-<div class="container-fluid">
-    <div class="row">
-      <div class="col-12">video</div>
-    </div>
+<div class="container-fluid p-0">
+  <div class="row">
+      <video class="w-100" autoplay muted loop playsinline>
+        <source src="./Videos/Video1.mp4" type="video/mp4">
+      </video>
   </div>
+</div>
+
+<section class="full-width-section text-center py-5 bg-dark">
+  <h1 class="display-4">Los mas vendidos</h1>
+</section>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-2">1</div>
-      <div class="col-7">2</div>
-      <div class="col-3">3</div>
-    </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-4 d-flex justify-content-center">
+      <div class="col-4 d-flex justify-content-center col-12 col-md-6 col-lg-4">
         <div class="card text-center" style="width: 18rem;">
             <img src="./Fotos/pastel3.jpg" class="card-img-top" alt="Imagen">
             <div class="card-body">
@@ -72,7 +70,7 @@
             </div>
           </div>
       </div>
-      <div class="col-4 d-flex justify-content-center">
+      <div class="col-4 d-flex justify-content-center col-12 col-md-6 col-lg-4">
         <div class="card text-center" style="width: 18rem;">
         <img src="./Fotos/Pastel1.jpg" class="card-img-top" alt="Imagen">
         <div class="card-body">
@@ -83,7 +81,7 @@
       </div>
 
       </div>
-      <div class="col-4 d-flex justify-content-center">
+      <div class="col-4 d-flex justify-content-center col-12 col-md-6 col-lg-4">
         <div class="card text-center" style="width: 18rem;">
             <img src="./Fotos/pastel2.jpg" class="card-img-top" alt="Imagen">
             <div class="card-body">
@@ -96,10 +94,54 @@
     </div>
   </div>
 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4 d-flex justify-content-center col-12 col-md-6 col-lg-4">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="./Fotos/pastel6.jpg" class="card-img-top" alt="Imagen">
+            <div class="card-body">
+              <h5 class="card-title">Cheese cake de chocolate</h5>
+              <p class="card-text">$480</p>
+              <a href="#" class="btn custom-btn">Comprar</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-4 d-flex justify-content-center col-12 col-md-6 col-lg-4">
+        <div class="card text-center" style="width: 18rem;">
+        <img src="./Fotos/Pastel5.jpg" class="card-img-top" alt="Imagen">
+        <div class="card-body">
+          <h5 class="card-title">Pastel navideño</h5>
+          <p class="card-text">$600</p>
+          <a href="#" class="btn custom-btn">Comprar</a>
+        </div>
+      </div>
+
+      </div>
+      <div class="col-4 d-flex justify-content-center col-12 col-md-6 col-lg-4">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="./Fotos/pastel4.jpg" class="card-img-top" alt="Imagen">
+            <div class="card-body">
+              <h5 class="card-title">Muffin de zarzamora</h5>
+              <p class="card-text">$100</p>
+              <a href="#" class="btn custom-btn">Comprar</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="full-width-image">
+    <a href="enlace-a-la-pagina.html">
+      <img src="./Fotos/Publicidad/Publicidad3.jpg" alt="Descripción de la imagen" class="img-fluid">
+    </a>
+  </section>
+  
+
+
   <footer class="footer mt-5 bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <h5>¡Síguenos!</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Facebook</a></li>

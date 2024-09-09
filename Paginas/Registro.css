@@ -1,0 +1,77 @@
+
+/* Estilos para el video de fondo */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+    overflow: hidden;
+}
+
+.video-background .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el video para que cubra todo el fondo */
+    position: absolute;
+}
+
+/* Estilos del formulario de registro */
+.register-container {
+    position: relative;
+    z-index: 1; /* Asegura que el formulario esté encima del video */
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.register-container label{
+    color: #fff;
+}
+
+.register-container p{
+    color: #fff;
+}
+
+.register-container p a{
+    color: #fff;
+}
+
+.custom-btn {
+    background-color: #f8b400; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación suave */
+    width: 100%;
+}
+
+.custom-btn:hover {
+    background-color: #b88703; /* Color de fondo al pasar el mouse */
+    color: #fff;
+}
+
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.register-container a {
+    color: #333;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
